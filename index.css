@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+#heading{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#namecontainer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#name{
+    width: 15em;
+    height: 2em;
+    margin-bottom: 20px;
+}
+
+#submit{
+    padding:6px 10px;
+    background-color: rgb(125, 125, 240);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: rgb(49, 49, 250);
+}
+
+#Numcont{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    margin-top: 30px;
+    gap:15px;
+}
+
+#inputnum{
+    width: 50px;
+    height: 30px;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+#numsubmit{
+    padding:6px 10px;
+    background-color: rgb(125, 125, 240);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#numsubmit:hover{
+    background-color: rgb(49, 49, 250);
+}
